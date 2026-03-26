@@ -3,23 +3,31 @@
 This project implements an ERC-20 token designed to represent fractional economic participation in a tokenised data centre revenue model.
 
 ## Coursework Context
-This repository is created for an asset tokenisation coursework project. The objective is to demonstrate how a real-world asset (data centre revenue) can be represented through blockchain tokens.
+This repository is created for an academic asset tokenisation project. The objective is to demonstrate how a real-world asset exposure can be represented through blockchain-based tokens.
 
-## Token Design
-- Standard: ERC-20
-- Name: DataCenterRevenueToken
-- Symbol: DCRT
-- Purpose: Represent fractional participation in data centre revenue
+## Asset and Token Logic
+- Underlying asset: data centre revenue stream
+- Token standard: ERC-20
+- Token name: DataCenterRevenueToken
+- Token symbol: DCRT
+- Token purpose: represent fractional economic participation linked to the project
 
-## Key Features
-- Minting (owner controlled)
+## Smart Contract Features
+- ERC-20 compliant token
+- Owner-controlled minting
 - Burnable tokens
 - Maximum supply cap
-- Simple token purchase mechanism
+- Simple token purchase function
+- Withdrawal of collected ETH
 
-## Deployment
+## Repository Structure
+- `contracts/`: Solidity smart contract files
+- `README.md`: project overview and documentation
+
+## Deployment Information
 - Network: Sepolia Testnet
-- Contract Address: (to be added after deployment)
+- Contract Address: to be added after deployment
+- Deployment Tool: Remix IDE
 
-## Disclaimer
-This token represents an academic design only. Legal ownership, governance, and revenue distribution must be handled off-chain in real-world implementations.
+## Important Disclaimer
+This token is an academic demonstration only. It does not by itself create direct legal ownership over a physical data centre. Real-world governance, revenue distribution, and legal rights would require additional off-chain agreements and regulatory compliance.
